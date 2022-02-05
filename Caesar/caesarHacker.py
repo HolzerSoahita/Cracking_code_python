@@ -35,6 +35,7 @@ def CaesarHacker(message='', SYMBOLS='ABCDEFGHIJKLMNOPQRSTUVWXYZaäbcçdeéèé�
         print('Key #%s: %s' % (key, translated))
 
 
+# Test the hacking of Caesar
 if __name__ == "__main__":
     message = 'est4&t4&w!&4mj3m5&wm44hrm)'
     CaesarHacker(message)

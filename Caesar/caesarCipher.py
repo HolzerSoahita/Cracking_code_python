@@ -38,6 +38,7 @@ def CaesarCipher(message='', key=3, mode='encrypt'):
     return translated
 
 
+# Test the Caesar cipher
 if __name__ == "__main__":
     cryptedMessage = CaesarCipher('This is my secret message.', 13, 'encrypt')
     print(cryptedMessage)
