@@ -6,6 +6,9 @@ from transposition_encrypt_decrypt import encryptMessage, decryptMessage
 
 
 def RandomTest():
+    """
+        Test the transposition algorithm randomly
+    """
     random.seed(42)  # set the random "seed" to a static value
 
     for i in range(20):  # run 20 tests
@@ -36,7 +39,6 @@ def RandomTest():
     print('Transposition cipher test passed.')
 
 
-# If transpositionTest.py is run (instead of imported as a module) call
 # the main() function.
 if __name__ == '__main__':
     RandomTest()
