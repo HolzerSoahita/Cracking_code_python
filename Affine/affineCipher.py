@@ -15,7 +15,6 @@ def AffineCipher():
     print('Key: %s' % (myKey))
     print('%sed text:' % (myMode.title()))
     print(translated)
-    print('Full %sed text copied to clipboard.' % (myMode))
 
 
 # the main() function.

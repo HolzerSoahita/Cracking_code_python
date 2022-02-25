@@ -1,4 +1,4 @@
-# Instruction
+# Instructions
 - To make vigenere cipher run "vigenereCipher.py" like python vigenereCipher.py
 - To hack vigenere cipher with a dictionnary run "vigenereDictionaryHacker.py" like python vigenereDictionaryHacker.py
 - To hack vigenere cipher using Kasiski examination run "vigenereHacker.py" like python vigenereHacker.py
